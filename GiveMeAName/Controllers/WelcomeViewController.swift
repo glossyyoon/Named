@@ -11,6 +11,7 @@ class WelcomeViewController: UIViewController{
     var timer: Timer!
     
     @IBOutlet weak var logoImage: UIImageView!
+    @IBOutlet weak var navigationBar: UINavigationItem!
     
     let navigationAppearance = UINavigationBarAppearance()
     override func viewWillAppear(_ animated: Bool) {
@@ -24,6 +25,7 @@ class WelcomeViewController: UIViewController{
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        navigationController?.navigationBar.barTintColor = UIColor(named: N.BrandColors.blue)
         logoImage.image = UIImage.init(named: "appstore.png")
         timer = Timer.scheduledTimer(timeInterval: 2.0, target: self, selector: #selector(timeaction), userInfo: nil, repeats: true)
     }

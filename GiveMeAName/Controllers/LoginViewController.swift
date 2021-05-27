@@ -37,6 +37,7 @@ class LoginViewController: UIViewController {
     }
     override func viewDidLoad() {
         super.viewDidLoad()
+        navigationController?.navigationBar.barTintColor = UIColor(named: N.BrandColors.blue)
         emailLoginButton.layer.cornerRadius = 5
         kakaoLoginButton.layer.cornerRadius = 5
         navigationItem.setHidesBackButton(true, animated: true)

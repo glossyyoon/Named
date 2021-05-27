@@ -8,15 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		6AE9B408A4AE65C7D904E563 /* Pods_GiveMeAName.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 969C27F6690D381E9ABFE842 /* Pods_GiveMeAName.framework */; };
-		9564C162265CC1B10027AE6B /* UserInfoRegister.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9564C161265CC1B10027AE6B /* UserInfoRegister.swift */; };
-		9564C166265CC2570027AE6B /* UserModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9564C164265CC2570027AE6B /* UserModel.xcdatamodeld */; };
+		953B4D47265FAF4800D5E75E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953B4D46265FAF4800D5E75E /* MainViewController.swift */; };
 		9564C16A265CDAF70027AE6B /* appstore.png in Resources */ = {isa = PBXBuildFile; fileRef = 9564C169265CDAF70027AE6B /* appstore.png */; };
 		9564C16C265CDDA20027AE6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9564C16B265CDDA10027AE6B /* Assets.xcassets */; };
-		9564C16E265D156B0027AE6B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9564C16D265D156B0027AE6B /* MainViewController.swift */; };
 		9564C173265D1A120027AE6B /* ImageCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9564C171265D1A120027AE6B /* ImageCellTableViewCell.swift */; };
 		9564C174265D1A120027AE6B /* ImageCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9564C172265D1A120027AE6B /* ImageCellTableViewCell.xib */; };
-		9564C176265D4C320027AE6B /* ItemWithImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9564C175265D4C320027AE6B /* ItemWithImage.swift */; };
-		9585EFEB265E794500461367 /* ItemRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9585EFEA265E794400461367 /* ItemRepository.swift */; };
+		9585EFED265E82DC00461367 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9585EFEC265E82DC00461367 /* Item.swift */; };
+		9585EFF4265F986100461367 /* handleFirestore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9585EFF3265F986100461367 /* handleFirestore.swift */; };
 		95AAB685265BF72C00AA8CC6 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AAB684265BF72C00AA8CC6 /* WelcomeViewController.swift */; };
 		95AAB689265C068900AA8CC6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 95AAB688265C068900AA8CC6 /* GoogleService-Info.plist */; };
 		95AAB68D265C157600AA8CC6 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AAB68C265C157600AA8CC6 /* RegisterViewController.swift */; };
@@ -34,15 +32,13 @@
 
 /* Begin PBXFileReference section */
 		5CD0416B68F1109AA11CFD97 /* Pods-GiveMeAName.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GiveMeAName.debug.xcconfig"; path = "Target Support Files/Pods-GiveMeAName/Pods-GiveMeAName.debug.xcconfig"; sourceTree = "<group>"; };
-		9564C161265CC1B10027AE6B /* UserInfoRegister.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoRegister.swift; sourceTree = "<group>"; };
-		9564C165265CC2570027AE6B /* UserModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UserModel.xcdatamodel; sourceTree = "<group>"; };
+		953B4D46265FAF4800D5E75E /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		9564C169265CDAF70027AE6B /* appstore.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appstore.png; sourceTree = "<group>"; };
 		9564C16B265CDDA10027AE6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9564C16D265D156B0027AE6B /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		9564C171265D1A120027AE6B /* ImageCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCellTableViewCell.swift; sourceTree = "<group>"; };
 		9564C172265D1A120027AE6B /* ImageCellTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageCellTableViewCell.xib; sourceTree = "<group>"; };
-		9564C175265D4C320027AE6B /* ItemWithImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemWithImage.swift; sourceTree = "<group>"; };
-		9585EFEA265E794400461367 /* ItemRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRepository.swift; sourceTree = "<group>"; };
+		9585EFEC265E82DC00461367 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		9585EFF3265F986100461367 /* handleFirestore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = handleFirestore.swift; sourceTree = "<group>"; };
 		95AAB684265BF72C00AA8CC6 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		95AAB688265C068900AA8CC6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		95AAB68C265C157600AA8CC6 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
@@ -85,8 +81,8 @@
 		9564C163265CC2410027AE6B /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				9564C164265CC2570027AE6B /* UserModel.xcdatamodeld */,
-				9564C175265D4C320027AE6B /* ItemWithImage.swift */,
+				9585EFEC265E82DC00461367 /* Item.swift */,
+				9585EFF3265F986100461367 /* handleFirestore.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -98,8 +94,7 @@
 				95AAB684265BF72C00AA8CC6 /* WelcomeViewController.swift */,
 				95AAB68C265C157600AA8CC6 /* RegisterViewController.swift */,
 				95AAB68E265C15DD00AA8CC6 /* EmailLoginViewController.swift */,
-				9564C161265CC1B10027AE6B /* UserInfoRegister.swift */,
-				9564C16D265D156B0027AE6B /* MainViewController.swift */,
+				953B4D46265FAF4800D5E75E /* MainViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -149,7 +144,6 @@
 				9564C169265CDAF70027AE6B /* appstore.png */,
 				95B32C68264069190002BD63 /* contentsCell.xib */,
 				95AAB690265C1B8B00AA8CC6 /* Constants.swift */,
-				9585EFEA265E794400461367 /* ItemRepository.swift */,
 			);
 			path = GiveMeAName;
 			sourceTree = "<group>";
@@ -282,15 +276,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9564C166265CC2570027AE6B /* UserModel.xcdatamodeld in Sources */,
 				9564C173265D1A120027AE6B /* ImageCellTableViewCell.swift in Sources */,
-				9564C16E265D156B0027AE6B /* MainViewController.swift in Sources */,
+				953B4D47265FAF4800D5E75E /* MainViewController.swift in Sources */,
 				95F27CC2263EC72500E59DB7 /* LoginViewController.swift in Sources */,
 				95AAB68F265C15DD00AA8CC6 /* EmailLoginViewController.swift in Sources */,
-				9564C162265CC1B10027AE6B /* UserInfoRegister.swift in Sources */,
-				9585EFEB265E794500461367 /* ItemRepository.swift in Sources */,
 				95AAB685265BF72C00AA8CC6 /* WelcomeViewController.swift in Sources */,
-				9564C176265D4C320027AE6B /* ItemWithImage.swift in Sources */,
+				9585EFF4265F986100461367 /* handleFirestore.swift in Sources */,
+				9585EFED265E82DC00461367 /* Item.swift in Sources */,
 				95B32C6C26406AEB0002BD63 /* ProductCell.swift in Sources */,
 				95AAB68D265C157600AA8CC6 /* RegisterViewController.swift in Sources */,
 				95F27CBE263EC72500E59DB7 /* AppDelegate.swift in Sources */,
@@ -501,19 +493,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		9564C164265CC2570027AE6B /* UserModel.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				9564C165265CC2570027AE6B /* UserModel.xcdatamodel */,
-			);
-			currentVersion = 9564C165265CC2570027AE6B /* UserModel.xcdatamodel */;
-			path = UserModel.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 95F27CB2263EC72500E59DB7 /* Project object */;
 }

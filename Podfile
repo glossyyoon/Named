@@ -8,8 +8,9 @@ target 'GiveMeAName' do
   # Pods for GiveMeAName
   
   pod 'KakaoSDK'
+  pod 'KakaoSDKNavi'
   pod 'Firebase/Auth'
   pod 'Firebase/Firestore'
   pod 'FirebaseFirestoreSwift'
-
+  pod 'MaterialComponents/Buttons'
 end

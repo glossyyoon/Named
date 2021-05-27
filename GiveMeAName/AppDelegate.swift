@@ -25,6 +25,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         KakaoSDKCommon.initSDK(appKey: "9d4769b6150d092e70ee5a24bc7df372")
         FirebaseApp.configure()
+        //      _db = Firestore.firestore()
         return true
     }
     func applicationDidEnterBackground(_ application: UIApplication) {

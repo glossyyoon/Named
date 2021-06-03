@@ -18,11 +18,14 @@ struct N{
     static let registerSegue = "RegisterToStart"
     static let loginSegue = "LoginToStart"
     static let kakaoSegue = "KakaoToStart"
+    static let writeSegue = "SegueToWrite"
+    static let detailSegue = "SegueToDetail"
     
     struct BrandColors {
         static let blue = "BrandBlue"
         static let pink = "BrandPink"
         static let yellow = "BrandYellow"
+        static let white = "AccentColor"
     }
     
     struct FStore {

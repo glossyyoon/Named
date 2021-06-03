@@ -14,7 +14,12 @@
 		9564C173265D1A120027AE6B /* ImageCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9564C171265D1A120027AE6B /* ImageCellTableViewCell.swift */; };
 		9564C174265D1A120027AE6B /* ImageCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9564C172265D1A120027AE6B /* ImageCellTableViewCell.xib */; };
 		9585EFED265E82DC00461367 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9585EFEC265E82DC00461367 /* Item.swift */; };
-		9585EFF4265F986100461367 /* handleFirestore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9585EFF3265F986100461367 /* handleFirestore.swift */; };
+		959E72EF2660DCAB005D2A4F /* WriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959E72EE2660DCAB005D2A4F /* WriteViewController.swift */; };
+		959E72F12660DCB8005D2A4F /* ReadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959E72F02660DCB8005D2A4F /* ReadViewController.swift */; };
+		959E72F32664A098005D2A4F /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959E72F22664A098005D2A4F /* Comment.swift */; };
+		959E72F52664AAED005D2A4F /* CommentTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959E72F42664AAED005D2A4F /* CommentTableViewController.swift */; };
+		959E72F72664B4A6005D2A4F /* CommentCellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959E72F62664B4A6005D2A4F /* CommentCellViewController.swift */; };
+		959E72F926665488005D2A4F /* CommentContainerVeiwController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959E72F826665488005D2A4F /* CommentContainerVeiwController.swift */; };
 		95AAB685265BF72C00AA8CC6 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AAB684265BF72C00AA8CC6 /* WelcomeViewController.swift */; };
 		95AAB689265C068900AA8CC6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 95AAB688265C068900AA8CC6 /* GoogleService-Info.plist */; };
 		95AAB68D265C157600AA8CC6 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AAB68C265C157600AA8CC6 /* RegisterViewController.swift */; };
@@ -38,7 +43,12 @@
 		9564C171265D1A120027AE6B /* ImageCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCellTableViewCell.swift; sourceTree = "<group>"; };
 		9564C172265D1A120027AE6B /* ImageCellTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageCellTableViewCell.xib; sourceTree = "<group>"; };
 		9585EFEC265E82DC00461367 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
-		9585EFF3265F986100461367 /* handleFirestore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = handleFirestore.swift; sourceTree = "<group>"; };
+		959E72EE2660DCAB005D2A4F /* WriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteViewController.swift; sourceTree = "<group>"; };
+		959E72F02660DCB8005D2A4F /* ReadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadViewController.swift; sourceTree = "<group>"; };
+		959E72F22664A098005D2A4F /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		959E72F42664AAED005D2A4F /* CommentTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentTableViewController.swift; sourceTree = "<group>"; };
+		959E72F62664B4A6005D2A4F /* CommentCellViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCellViewController.swift; sourceTree = "<group>"; };
+		959E72F826665488005D2A4F /* CommentContainerVeiwController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentContainerVeiwController.swift; sourceTree = "<group>"; };
 		95AAB684265BF72C00AA8CC6 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		95AAB688265C068900AA8CC6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		95AAB68C265C157600AA8CC6 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
@@ -82,7 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				9585EFEC265E82DC00461367 /* Item.swift */,
-				9585EFF3265F986100461367 /* handleFirestore.swift */,
+				959E72F22664A098005D2A4F /* Comment.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -95,6 +105,11 @@
 				95AAB68C265C157600AA8CC6 /* RegisterViewController.swift */,
 				95AAB68E265C15DD00AA8CC6 /* EmailLoginViewController.swift */,
 				953B4D46265FAF4800D5E75E /* MainViewController.swift */,
+				959E72EE2660DCAB005D2A4F /* WriteViewController.swift */,
+				959E72F02660DCB8005D2A4F /* ReadViewController.swift */,
+				959E72F42664AAED005D2A4F /* CommentTableViewController.swift */,
+				959E72F62664B4A6005D2A4F /* CommentCellViewController.swift */,
+				959E72F826665488005D2A4F /* CommentContainerVeiwController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -281,10 +296,15 @@
 				95F27CC2263EC72500E59DB7 /* LoginViewController.swift in Sources */,
 				95AAB68F265C15DD00AA8CC6 /* EmailLoginViewController.swift in Sources */,
 				95AAB685265BF72C00AA8CC6 /* WelcomeViewController.swift in Sources */,
-				9585EFF4265F986100461367 /* handleFirestore.swift in Sources */,
+				959E72EF2660DCAB005D2A4F /* WriteViewController.swift in Sources */,
+				959E72F72664B4A6005D2A4F /* CommentCellViewController.swift in Sources */,
 				9585EFED265E82DC00461367 /* Item.swift in Sources */,
 				95B32C6C26406AEB0002BD63 /* ProductCell.swift in Sources */,
 				95AAB68D265C157600AA8CC6 /* RegisterViewController.swift in Sources */,
+				959E72F52664AAED005D2A4F /* CommentTableViewController.swift in Sources */,
+				959E72F926665488005D2A4F /* CommentContainerVeiwController.swift in Sources */,
+				959E72F12660DCB8005D2A4F /* ReadViewController.swift in Sources */,
+				959E72F32664A098005D2A4F /* Comment.swift in Sources */,
 				95F27CBE263EC72500E59DB7 /* AppDelegate.swift in Sources */,
 				95F27CC0263EC72500E59DB7 /* SceneDelegate.swift in Sources */,
 				95AAB691265C1B8B00AA8CC6 /* Constants.swift in Sources */,
